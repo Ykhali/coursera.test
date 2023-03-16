@@ -1,7 +1,8 @@
+
 * {
     box-sizing: border-box;
   }
-  
+
   h1 {
       font-size: 27px;
       font-family: Georgia serif;
@@ -9,14 +10,14 @@
       color: rgb(0, 0, 0);
       margin-bottom: 30px;
   }
-  
+
   p {
       padding: 15px 5px 0px 5px;
       font-family: Georgia sans-serif;
       font-size: 16px;
       position: relative;
   }
-  
+
   .section { 
          background-color: rgb(150, 150, 150);
          border: 2px solid black;
@@ -26,7 +27,7 @@
          text-align: justify;
          position: relative;
    }
-  
+
   span {
       font-size: 20px;
       width: 150px;
@@ -48,25 +49,22 @@
       background-color: rgba(200, 192, 100, 0.938);
       color: rgb(0, 0, 0);
   }
-  
-  
+
+
   .row {
       width: 100%;
   }
-  
-  /* Desktop PC view */
-  
+
   @media (min-width: 992px) {
-  
+
     .col-lg-4 {
       width: 33.33%;
       float: left;
       }
   }
-  
-  /* Tablet PC view */
+
   @media (min-width: 768px) and (max-width: 991px) {
-  
+
     .col-md-6 {
       width: 50%;
       float: left;
@@ -76,9 +74,8 @@
       float: left;
     }
   }
-  /* Cell phone view */
   @media (max-width: 767px)  {
-  
+
     .col-sx-12 {
         float: left;
       width: 100%;
